@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+ul .active {
+  @apply p-2 bg-emerald-400 rounded-lg 
+}
+
+.footer i {
+  cursor: pointer;
+}
+
+.card .layer {
+  transition: .5s;
+  cursor: pointer;
+}
+
+
+
